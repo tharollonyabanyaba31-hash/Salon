@@ -1,0 +1,72 @@
+/* GENERAL */
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#111;
+    color:white;
+    padding:15px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* HERO */
+.hero{
+    background:pink;
+    text-align:center;
+    padding:80px;
+}
+
+/* SERVICES */
+.service-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.service img{
+    width:200px;
+    height:150px;
+}
+
+/* TABLE */
+table{
+    width:60%;
+    margin:auto;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid black;
+    padding:10px;
+}
+
+/* FORM */
+form{
+    text-align:center;
+    padding:20px;
+}
+
+button{
+    background:black;
+    color:white;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+}
